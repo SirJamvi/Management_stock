@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-tambah {
+    background-color: #28a745 !important; /* Hijau */
+    color: #ffffff !important; /* Pastikan text berwarna putih */
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.btn-tambah:hover {
+    background-color: #218838 !important;
+    color: #ffffff !important;
+}
+
+.btn-edit {
+    background-color: #ffc107; /* Kuning */
+}
+
+.btn-hapus {
+    background-color: #dc3545; /* Merah */
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="number"], form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* agar padding tidak menambah lebar */
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Tambahkan ini di akhir file css/style.css */
+.btn-tambah-stok {
+    background-color: #17a2b8; /* Biru-cyan */
+    font-weight: bold;
+}
+
+.btn-kurang-stok {
+    background-color: #fd7e14; /* Oranye */
+    font-weight: bold;
+}
+
+td.aksi {
+    min-width: 150px; /* Agar semua tombol muat dalam satu baris */
+    text-align: center;
+}
+
+/* Style untuk kontrol stok */
+.stok-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Jarak antara tombol dan angka */
+}
+
+.stok-display {
+    font-weight: bold;
+    font-size: 1.1em;
+    min-width: 30px; /* Lebar minimum agar tidak bergeser */
+    text-align: center;
+}
+
+.btn-stok {
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%; /* Membuat tombol menjadi bulat */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.btn-stok:hover {
+    background-color: #e2e6ea;
+}
+
+.btn-kurang {
+    color: #dc3545; /* Merah */
+    border-color: #dc3545;
+}
+
+.btn-tambah {
+    color: #28a745; /* Hijau */
+    border-color: #28a745;
+}
